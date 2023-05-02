@@ -16,7 +16,6 @@ app.use((req, res, next) => {
     next();
 })
 
-
 // Routers
 const adminRouter = require('./src/routers/Admin.router')
 const doctorRouter = require('./src/routers/Doctor.router')
@@ -26,7 +25,7 @@ const medicineRouter = require('./src/routers/Medicine.router')
 const pharmacyRouter = require('./src/routers/Pharmacy.router')
 const specializationRouter = require('./src/routers/Specialization.router')
 const diseaseRouter = require('./src/routers/Disease.router')
-const feedbackRouter = require('./src/routers/Feedback.router')
+const feedbackRouter = require('./src/routers/feedback.router')
 const conversationRoute = require("./src/routers/conversation")
 const messageRoute = require("./src/routers/message")
 
