@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 // Routers
 const adminRouter = require('./src/routers/Admin.router')
 const doctorRouter = require('./src/routers/Doctor.router')
-const patientRouter = require('./src/routers/Patient.router')
+const patientRouter = require('./src/routers/patient1.router')
 const hospitalRouter = require('./src/routers/Hospital.router')
 const medicineRouter = require('./src/routers/Medicine.router')
 const pharmacyRouter = require('./src/routers/Pharmacy.router')

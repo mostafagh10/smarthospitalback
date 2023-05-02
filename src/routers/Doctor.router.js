@@ -1,10 +1,9 @@
-
 const router = require('express').Router()
 const Doctor = require('../models/Doctor.model')
 const authDoctor = require('../middleware/authDoctor')
 const authAdmin = require('../middleware/authAdmin')
 const { sendPasswordVerificationCode, acceptDoctorEmail, rejectDoctorEmail } = require('../emails/mailer')
-const { generateToken } = require('../Utils/Helpers')
+const { generateToken } = require('../Utils/helpers')
 
 
 // to get all doctors 
