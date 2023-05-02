@@ -1,9 +1,8 @@
-
 const router = require('express').Router()
 const Admin = require('../models/Admin.model')
 const authAdmin = require('../middleware/authAdmin')
 const { sendPasswordVerificationCode } = require('../emails/mailer')
-const { generateToken } = require('../Utils/Helpers')
+const { generateToken }  = require('../Utils/helpers')
 
 
 // to get all admins 
